@@ -1,0 +1,23 @@
+<h1>
+  Cal App
+</h1>
+<input [(ngModel)]='num1' type="number" name="num1" placeholder="enter number 1">
+<input [(ngModel)]='num2' type="number" name="num2" placeholder="enter number 2">
+<br>
+<button (click)='cal_add()'>
+  +
+</button>
+<button (click)='cal_sub()'>
+  -
+</button>
+<button (click)='cal_mul()'>
+  *
+</button>
+<button (click)='cal_div()'>
+  /
+</button>
+<br><br>
+<h2>
+  Result:{{result}}
+</h2>
+
